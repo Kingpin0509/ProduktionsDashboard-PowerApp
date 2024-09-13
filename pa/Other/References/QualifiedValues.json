@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr279_linie_i_forms",
+      "Namespace": "Linie_Is (Formulare)",
+      "Values": {
+        "Informationen": "636f6b54-34cc-4834-b383-d59b160638a0"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_i_forms",
+      "Namespace": "Linie_Is (Forms)",
+      "Values": {
+        "Informationen": "636f6b54-34cc-4834-b383-d59b160638a0"
+      }
+    }
+  ]
+}

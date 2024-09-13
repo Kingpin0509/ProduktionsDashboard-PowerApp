@@ -1,0 +1,56 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "HelperScreen": 4,
+    "Host": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "09/13/2024 22:55:14",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "Linie_Is": 7,
+    "Linie_Is\\cr279_linie_i_cr279_field_11": 0,
+    "Linie_Is\\cr279_linie_i_cr279_field_12": 1,
+    "Linie_Is\\cr279_linie_i_cr279_field_13": 2,
+    "Linie_Is\\cr279_linie_i_cr279_field_6": 3,
+    "Linie_Is\\cr279_linie_i_statecode": 4,
+    "Linie_Is\\cr279_linie_i_statuscode": 5,
+    "Linie_Is\\default.cds_cr279_linie_i_views": 6
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "HelperScreen": {},
+    "Host": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "HelperScreen": 0,
+    "Host": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0742028,
+    "ControlCount": {
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.875165
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
