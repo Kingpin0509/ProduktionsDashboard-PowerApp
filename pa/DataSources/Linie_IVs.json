@@ -1,0 +1,194 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr279_linie_ivs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr279_linie_iv",
+    "Name": "Linie_IVs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "cr279_field_0": "Pos",
+      "cr279_field_1": "Produkt",
+      "cr279_field_10": "Menge IST",
+      "cr279_field_11": "Kapseln vorhanden?",
+      "cr279_field_12": "Dosen bedruckt?",
+      "cr279_field_13": "Etiketten vorhanden?",
+      "cr279_field_14": "Kommentar",
+      "cr279_field_15": "Status (%)",
+      "cr279_field_16": "Fertigmeldung",
+      "cr279_field_2": "Auftrag",
+      "cr279_field_3": "AFK",
+      "cr279_field_4": "Menge SOLL",
+      "cr279_field_5": "Dosengröße ml",
+      "cr279_field_6": "Bio",
+      "cr279_field_7": "Startdatum",
+      "cr279_field_8": "Fertigstellung (KW)",
+      "cr279_field_9": "Kunde",
+      "cr279_linie_iv_AsyncOperations": "Systemaufträge",
+      "cr279_linie_iv_BulkDeleteFailures": "Massenlöschungsfehler",
+      "cr279_linie_iv_MailboxTrackingFolders": "Automatisch nachverfolgte Postfachordner",
+      "cr279_linie_iv_PrincipalObjectAttributeAccesses": "Sicherer Feldzugriff",
+      "cr279_linie_iv_ProcessSession": "Prozesssitzungen",
+      "cr279_linie_iv_SyncErrors": "Synchronisierungsfehler",
+      "cr279_linie_ivid": "Linie_IV",
+      "cr279_schl_x00fc_sselspalte": "Schlüsselspalte",
+      "cr279_title": "Titel",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "importsequencenumber": "Importsequenznummer",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "organizationid": "Organisations-ID",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "utcconversiontimezonecode": "Zeitzonencode für UTC-Konvertierung",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Linie_IVs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Linie_IVs (Ansichten)",
+    "Name": "_cr279_linie_iv_views",
+    "RelatedEntityName": "Linie_IVs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "058d0a5e-368d-4287-a3d7-0b343d7dda59": "Aktive Linie_IVs",
+      "17396005-1334-43ab-8890-c7520f0c3306": "Portal Search",
+      "46343511-518e-4da4-97ba-a3f6cdafc28b": "Linie_IV Zugeordnete Ansicht",
+      "8be5eb9e-ec47-4cb0-8461-8aeeb700bc23": "Inaktive Linie_IVs",
+      "ba48915b-e8b9-41df-8268-373bcb6c7898": "Linie_IV Ansicht für die erweiterte Suche",
+      "debb1fdb-3cb9-4fe9-8f49-f90908de5cb3": "Linie_IV Suchansicht"
+    }
+  },
+  {
+    "DisplayName": "Kapseln vorhanden? (Linie_IVs)",
+    "Name": "cr279_linie_iv_cr279_field_11",
+    "OptionSetInfoNameMapping": {
+      "0": "ja",
+      "1": "nein",
+      "2": "-"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr279_field_11",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr279_field_11",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Dosen bedruckt? (Linie_IVs)",
+    "Name": "cr279_linie_iv_cr279_field_12",
+    "OptionSetInfoNameMapping": {
+      "0": "ja",
+      "1": "nein",
+      "2": "-"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr279_field_12",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr279_field_12",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Etiketten vorhanden? (Linie_IVs)",
+    "Name": "cr279_linie_iv_cr279_field_13",
+    "OptionSetInfoNameMapping": {
+      "0": "ja",
+      "1": "nein",
+      "2": "-"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr279_field_13",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr279_field_13",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Bio (Linie_IVs)",
+    "Name": "cr279_linie_iv_cr279_field_6",
+    "OptionSetInfoNameMapping": {
+      "0": "ja",
+      "1": "nein",
+      "2": "-"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr279_field_6",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr279_field_6",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Linie_IVs)",
+    "Name": "cr279_linie_iv_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (Linie_IVs)",
+    "Name": "cr279_linie_iv_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Linie_IVs"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Linie_IVs",
+    "Type": "OptionSetInfo"
+  }
+]

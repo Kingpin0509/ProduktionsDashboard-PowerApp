@@ -13,6 +13,27 @@
       "Values": {
         "Informationen": "636f6b54-34cc-4834-b383-d59b160638a0"
       }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_ii_forms",
+      "Namespace": "Linie_IIs (Formulare)",
+      "Values": {
+        "Informationen": "3f3c2083-d33a-42d4-8059-fb0c7e9acfc5"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_iii_forms",
+      "Namespace": "Linie_IIIs (Formulare)",
+      "Values": {
+        "Informationen": "62825b9e-45af-4019-ad18-71bc7748b045"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_iv_forms",
+      "Namespace": "Linie_IVs (Formulare)",
+      "Values": {
+        "Informationen": "1b80cdec-22d0-4b64-9ce5-f46e136bd9eb"
+      }
     }
   ]
 }
