@@ -1,2 +1,73 @@
 HelperScreen As screen:
+    Fill: =RGBA(106, 122, 127, 1)
+    LoadingSpinnerColor: =App.Theme.Colors.Primary
+
+    "'Linie I' As gallery.BrowseLayout_Vertical_ThreeTextVariant_pcfCore":
+        BorderColor: =App.Theme.Colors.Darker40
+        DelayItemLoading: =true
+        Items: =Linie_Is
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =74
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        Rectangle2 As rectangle:
+            BorderColor: =App.Theme.Colors.Darker40
+            DisabledFill: =RGBA(0,0,0,0)
+            Fill: =RGBA(0,0,0,0)
+            Height: =Parent.TemplateHeight
+            HoverFill: =RGBA(0,0,0,0)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(0,0,0,0)
+            TabIndex: =0
+            Width: =Parent.TemplateWidth
+            ZIndex: =1
+
+        Title2 As Beschriftung:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =10.5
+            FontWeight: =FontWeight.Semibold
+            Height: =24
+            OnChange: =false
+            OnSelect: =Select(Parent)
+            TabIndex: =-1
+            Text: =ThisItem.'Menge SOLL'
+            VerticalAlignment: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 24
+            X: =12
+            Y: =((Parent.TemplateHeight - 52) / 2) - 4
+            ZIndex: =2
+
+        Subtitle2 As Beschriftung:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =9
+            FontWeight: =FontWeight.Normal
+            Height: =24
+            OnChange: =false
+            OnSelect: =Select(Parent)
+            TabIndex: =-1
+            Text: =ThisItem.AFK
+            VerticalAlignment: =VerticalAlign.Top
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =Title2.Y + Title2.Height - 6
+            ZIndex: =3
+
+        Body1 As Beschriftung:
+            DisplayMode: =DisplayMode.Edit
+            FontSize: =9
+            FontWeight: =FontWeight.Normal
+            Height: =24
+            OnChange: =false
+            OnSelect: =Select(Parent)
+            TabIndex: =-1
+            Text: =ThisItem.Produkt
+            VerticalAlignment: =VerticalAlign.Top
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =50
+            ZIndex: =4
 
