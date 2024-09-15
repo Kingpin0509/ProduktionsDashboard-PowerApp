@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr279_linie_iiidashbs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr279_linie_iiidashb",
+    "Name": "Linie_IIIDashbs",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "cr279_afk": "AFK",
+      "cr279_auftrag": "Auftrag",
+      "cr279_id": "ID",
+      "cr279_linie_iiidashb_AsyncOperations": "Systemaufträge",
+      "cr279_linie_iiidashb_BulkDeleteFailures": "Massenlöschungsfehler",
+      "cr279_linie_iiidashb_MailboxTrackingFolders": "Automatisch nachverfolgte Postfachordner",
+      "cr279_linie_iiidashb_PrincipalObjectAttributeAccesses": "Sicherer Feldzugriff",
+      "cr279_linie_iiidashb_ProcessSession": "Prozesssitzungen",
+      "cr279_linie_iiidashb_SyncErrors": "Synchronisierungsfehler",
+      "cr279_linie_iiidashbid": "Linie_IIIDashb",
+      "cr279_mengeist": "Menge IST",
+      "cr279_mengesoll": "Menge SOLL",
+      "cr279_pos": "Pos",
+      "cr279_produkt": "Produkt",
+      "cr279_schlsselspalte": "Schlüsselspalte",
+      "cr279_status": "Status (cr279_status)",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "importsequencenumber": "Importsequenznummer",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "statecode": "Status (statecode)",
+      "statuscode": "Statusgrund",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "utcconversiontimezonecode": "Zeitzonencode für UTC-Konvertierung",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Linie_IIIDashbs",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Linie_IIIDashbs (Ansichten)",
+    "Name": "_cr279_linie_iiidashb_views",
+    "RelatedEntityName": "Linie_IIIDashbs",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "668ac95b-fc8b-4c99-a49a-081c72bcbcca": "Linie_IIIDashb Ansicht für die erweiterte Suche",
+      "673c0b4f-0dd8-4e52-803b-ce67035ce339": "Linie_IIIDashb Suchansicht",
+      "8bae147d-6c5d-49be-88c4-6c669149b9b5": "Inaktive Linie_IIIDashbs",
+      "949837a1-2de7-45fd-9c0b-20390d007a85": "Linie_IIIDashb Zugeordnete Ansicht",
+      "b1f97b1f-0192-449f-a88b-a739530efde3": "Aktive Linie_IIIDashbs"
+    }
+  },
+  {
+    "DisplayName": "Status (Linie_IIIDashbs)",
+    "Name": "cr279_linie_iiidashb_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Linie_IIIDashbs"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Linie_IIIDashbs",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (Linie_IIIDashbs)",
+    "Name": "cr279_linie_iiidashb_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Linie_IIIDashbs"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Linie_IIIDashbs",
+    "Type": "OptionSetInfo"
+  }
+]

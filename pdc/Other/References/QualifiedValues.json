@@ -1,0 +1,32 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr279_linie_idashb_forms",
+      "Namespace": "Linie_IDashbs (Formulare)",
+      "Values": {
+        "Informationen": "e165479b-6382-420a-bfd5-def01a1dc973"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_iidashb_forms",
+      "Namespace": "Linie_IIDashbs (Formulare)",
+      "Values": {
+        "Informationen": "76cae618-29c5-4e20-8e30-c367e4d4cbe6"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_iiidashb_forms",
+      "Namespace": "Linie_IIIDashbs (Formulare)",
+      "Values": {
+        "Informationen": "8165946b-f03a-4265-8e8d-d4667af13b51"
+      }
+    },
+    {
+      "Kind": "default.cds_cr279_linie_ivdashb_forms",
+      "Namespace": "Linie_IVDashbs (Formulare)",
+      "Values": {
+        "Informationen": "f2388b82-5b06-425f-bca7-eebcba9741a6"
+      }
+    }
+  ]
+}
