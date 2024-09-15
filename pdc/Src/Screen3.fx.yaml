@@ -2,9 +2,10 @@ Screen3 As screen:
     Fill: =RGBA(152, 208, 70, 0.64)
     ImagePosition: =ImagePosition.Fill
 
-    "'Linie III_IV_1' As 'Linie III_IV'":
-        X: =694
-
     "'Linie I_II_1' As 'Linie I_II'":
         ZIndex: =2
+
+    "'Linie III_IV_1' As 'Linie III_IV'":
+        X: =694
+        ZIndex: =3
 
