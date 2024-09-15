@@ -1,4 +1,4 @@
-"'Linie I_II' As CanvasComponent":
+"'Linie I_II_2' As CanvasComponent":
     Fill: =RGBA(0, 0, 0, 0)
     Height: =768
     Width: =672
@@ -6,7 +6,7 @@
     Y: =0
     ZIndex: =1
 
-    Container2 As groupContainer.manualLayoutContainer:
+    Container2_3 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(17, 61, 15, 0.34)
         Height: =704
@@ -15,14 +15,14 @@
         Y: =45
         ZIndex: =6
 
-        "Gallery4_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        "Gallery4_7 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
             BorderColor: =RGBA(17, 61, 15, 1)
             BorderThickness: =1
             DelayItemLoading: =true
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(255, 255, 255, 1)
             Height: =675
-            Items: =Linie_IIDashbs
+            Items: =Filter(Linie_IVDashbs, 'Linie_IVDashbs (Ansichten)'.'Aktive Linie_IVDashbs')
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             ShowScrollbar: =false
@@ -32,9 +32,9 @@
             Width: =281
             X: =10
             Y: =15
-            ZIndex: =1
+            ZIndex: =2
 
-            TextCanvas2_18 As Text:
+            TextCanvas2_27 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -48,7 +48,7 @@
                 Y: =49
                 ZIndex: =12
 
-            Menge_2 As Text:
+            Menge_5 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -61,7 +61,7 @@
                 Y: =103
                 ZIndex: =13
 
-            TextCanvas2_19 As Text:
+            TextCanvas2_29 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -74,7 +74,7 @@
                 Y: =108
                 ZIndex: =14
 
-            TextCanvas2_20 As Text:
+            TextCanvas2_28 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -86,7 +86,7 @@
                 Y: =89
                 ZIndex: =15
 
-            Rectangle4_5 As rectangle:
+            Rectangle4_8 As rectangle:
                 Fill: =RGBA(17, 61, 15, 1)
                 Height: =11
                 OnSelect: =Select(Parent)
@@ -94,7 +94,7 @@
                 Y: =151
                 ZIndex: =16
 
-            AFK_2 As label:
+            AFK_5 As label:
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -111,7 +111,7 @@
                 Y: =49
                 ZIndex: =17
 
-            Body3_16 As label:
+            Body3_22 As label:
                 Align: =Align.Center
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
                 Height: =25
@@ -128,7 +128,7 @@
                 Y: =24
                 ZIndex: =18
 
-            Body3_17 As label:
+            Body3_23 As label:
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -145,7 +145,7 @@
                 Y: =128
                 ZIndex: =19
 
-            "'Menge Soll_2' As label":
+            "'Menge Soll_5' As label":
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -162,7 +162,7 @@
                 Y: =115
                 ZIndex: =20
 
-    Container2_1 As groupContainer.manualLayoutContainer:
+    Container2_2 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(17, 61, 15, 0.29)
         Height: =704
@@ -171,14 +171,14 @@
         Y: =45
         ZIndex: =7
 
-        "Gallery4 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        "Gallery4_6 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
             BorderColor: =RGBA(17, 61, 15, 1)
-            BorderThickness: =2
+            BorderThickness: =1
             DelayItemLoading: =true
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(255, 255, 255, 1)
             Height: =675
-            Items: =Linie_IDashbs
+            Items: =Filter(Linie_IIIDashbs, 'Linie_IIIDashbs (Ansichten)'.'Aktive Linie_IIIDashbs')
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             ShowScrollbar: =false
@@ -188,9 +188,9 @@
             Width: =281
             X: =10
             Y: =15
-            ZIndex: =1
+            ZIndex: =2
 
-            TextCanvas2 As Text:
+            TextCanvas2_24 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -201,10 +201,10 @@
                 Weight: ='TextCanvas.Weight'.Semibold
                 Width: =70
                 X: =77
-                Y: =54
-                ZIndex: =1
+                Y: =49
+                ZIndex: =12
 
-            Menge As Text:
+            Menge_4 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -214,10 +214,10 @@
                 Weight: ='TextCanvas.Weight'.Bold
                 Width: =72
                 X: =105
-                Y: =108
-                ZIndex: =2
+                Y: =103
+                ZIndex: =13
 
-            TextCanvas2_2 As Text:
+            TextCanvas2_26 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
@@ -228,29 +228,29 @@
                 Width: =58
                 X: =37
                 Y: =108
-                ZIndex: =3
+                ZIndex: =14
 
-            TextCanvas2_3 As Text:
+            TextCanvas2_25 As Text:
                 Align: ='TextCanvas.Align'.Center
                 AutoHeight: =false
                 DisplayMode: =DisplayMode.Edit
                 Height: =20
                 Text: ="SOLL"
-                Weight: ='TextCanvas.Weight'.Bold
+                Weight: ='TextCanvas.Weight'.Semibold
                 Width: =58
                 X: =185
-                Y: =99
-                ZIndex: =4
+                Y: =89
+                ZIndex: =15
 
-            Rectangle4 As rectangle:
+            Rectangle4_7 As rectangle:
                 Fill: =RGBA(17, 61, 15, 1)
                 Height: =11
                 OnSelect: =Select(Parent)
-                Width: =282
-                Y: =155
-                ZIndex: =5
+                Width: =281
+                Y: =151
+                ZIndex: =16
 
-            AFK As label:
+            AFK_4 As label:
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -263,14 +263,14 @@
                 Size: =15
                 Text: =ThisItem.AFK
                 Width: =74
-                X: =116
-                Y: =54
-                ZIndex: =6
+                X: =111
+                Y: =49
+                ZIndex: =17
 
-            Body3_1 As label:
+            Body3_20 As label:
                 Align: =Align.Center
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
-                Height: =44
+                Height: =25
                 OnSelect: =Select(Parent)
                 PaddingBottom: =0
                 PaddingLeft: =0
@@ -281,10 +281,10 @@
                 Underline: =true
                 VerticalAlign: =VerticalAlign.Top
                 Width: =282
-                Y: =20
-                ZIndex: =7
+                Y: =24
+                ZIndex: =18
 
-            Body3 As label:
+            Body3_21 As label:
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -299,9 +299,9 @@
                 Width: =74
                 X: =29
                 Y: =128
-                ZIndex: =8
+                ZIndex: =19
 
-            "'Menge Soll' As label":
+            "'Menge Soll_4' As label":
                 Align: =Align.Center
                 AutoHeight: =true
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Semibold)
@@ -315,10 +315,10 @@
                 Text: =ThisItem.'Menge SOLL'
                 Width: =74
                 X: =177
-                Y: =120
-                ZIndex: =9
+                Y: =115
+                ZIndex: =20
 
-    TextCanvas1 As Text:
+    TextCanvas1_4 As Text:
         Align: ='TextCanvas.Align'.Center
         AutoHeight: =true
         BorderStyle: =BorderStyle.None
@@ -328,14 +328,14 @@
         FontUnderline: =true
         Height: =32
         Size: =32
-        Text: ="Linie I"
+        Text: ="Linie III"
         Weight: ='TextCanvas.Weight'.Bold
         Width: =214
         X: =63
         Y: =0
         ZIndex: =8
 
-    TextCanvas1_1 As Text:
+    TextCanvas1_5 As Text:
         Align: ='TextCanvas.Align'.Center
         AutoHeight: =true
         BorderStyle: =BorderStyle.None
@@ -345,7 +345,7 @@
         FontUnderline: =true
         Height: =32
         Size: =32
-        Text: ="Linie II"
+        Text: ="Linie IV"
         Weight: ='TextCanvas.Weight'.Bold
         Width: =214
         X: =395
