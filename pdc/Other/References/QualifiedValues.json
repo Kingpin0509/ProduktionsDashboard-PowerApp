@@ -27,6 +27,11 @@
       "Values": {
         "Informationen": "f2388b82-5b06-425f-bca7-eebcba9741a6"
       }
+    },
+    {
+      "Kind": "default.cds_mailboxtrackingfolder_forms",
+      "Namespace": "Automatisch nachverfolgte Postfachordner (Formulare)",
+      "Values": {}
     }
   ]
 }

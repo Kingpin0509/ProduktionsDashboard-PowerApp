@@ -1,0 +1,32 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "mailboxtrackingfolders",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "mailboxtrackingfolder",
+    "Name": "Automatisch nachverfolgte Postfachordner",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "_regardingobjectid_value": "Bezug-Objekt-ID",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "exchangefolderid": "Exchange-Ordner-ID",
+      "exchangefoldername": "Exchange-Ordnername",
+      "folderonboardingstatus": "Onboarding-Status für Ordner",
+      "mailboxid": "MailboxId",
+      "mailboxtrackingfolderid": "MailboxTrackingFolderId",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "organizationid": "Organisation",
+      "owningbusinessunit": "Zuständige Unternehmenseinheit",
+      "owningteam": "Zuständiges Team",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "Automatisch nachverfolgte Postfachordner",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
