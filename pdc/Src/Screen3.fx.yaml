@@ -1,5 +1,6 @@
 Screen3 As screen:
-    Fill: =RGBA(121, 163, 59, 0.84)
+    Fill: =RGBA(152, 208, 70, 0.64)
+    ImagePosition: =ImagePosition.Fill
 
     "'Linie I_II_1' As 'Linie I_II'":
         ZIndex: =2
