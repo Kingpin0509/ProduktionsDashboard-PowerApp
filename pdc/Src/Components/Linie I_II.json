@@ -2787,7 +2787,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "15",
+                "InvariantScript": "16",
                 "Property": "Y",
                 "RuleProviderType": "Unknown"
               },
@@ -2799,7 +2799,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "675",
+                "InvariantScript": "686",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -2938,7 +2938,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "704",
+            "InvariantScript": "715",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -5435,7 +5435,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "675",
+                "InvariantScript": "685",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -5581,7 +5581,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "704",
+            "InvariantScript": "715",
             "Property": "Height",
             "RuleProviderType": "Unknown"
           },
@@ -5715,7 +5715,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638620253651054306",
+    "LastModifiedTimestamp": "638620396829776318",
     "Name": "Linie I_II",
     "Rules": [
       {
@@ -5774,7 +5774,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638620253651054306",
+  "LastModifiedTimestamp": "638620396829776318",
   "Name": "12f8a0f6c2c9432a851f843b2aeacd65",
   "OverridableProperties": {},
   "Version": "1.0"

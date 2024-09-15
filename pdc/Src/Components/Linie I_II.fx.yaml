@@ -9,7 +9,7 @@
     Container2 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(17, 61, 15, 0.34)
-        Height: =704
+        Height: =715
         Width: =300
         X: =352
         Y: =45
@@ -21,7 +21,7 @@
             DelayItemLoading: =true
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =675
+            Height: =685
             Items: =Linie_IIDashbs
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
@@ -165,7 +165,7 @@
     Container2_1 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(17, 61, 15, 0.29)
-        Height: =704
+        Height: =715
         Width: =305
         X: =17
         Y: =45
@@ -177,7 +177,7 @@
             DelayItemLoading: =true
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =675
+            Height: =686
             Items: =Linie_IDashbs
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
@@ -187,7 +187,7 @@
             Transition: =Transition.Pop
             Width: =281
             X: =10
-            Y: =15
+            Y: =16
             ZIndex: =1
 
             TextCanvas2 As Text:
