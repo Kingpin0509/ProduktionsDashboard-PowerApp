@@ -106,7 +106,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/15/2024 01:41:43",
+  "HeaderLastSavedDateTimeUTC": "09/15/2024 01:42:10",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -828,7 +828,7 @@
       "gallery": 3,
       "galleryTemplate": 3,
       "label": 15,
-      "PowerApps_CoreControls_TextCanvas": 20,
+      "PowerApps_CoreControls_TextCanvas": 21,
       "rectangle": 3
     }
   },
