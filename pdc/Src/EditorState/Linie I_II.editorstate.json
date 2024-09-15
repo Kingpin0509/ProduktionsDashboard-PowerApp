@@ -359,7 +359,7 @@
       "MetaDataIDKey": "",
       "Name": "AFK_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1199,7 +1199,7 @@
       "MetaDataIDKey": "",
       "Name": "Body3_16",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1477,7 +1477,7 @@
       "MetaDataIDKey": "",
       "Name": "Body3_17",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1729,7 +1729,7 @@
       "MetaDataIDKey": "",
       "Name": "Container2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1904,7 +1904,7 @@
       "MetaDataIDKey": "",
       "Name": "Container2_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2568,7 +2568,7 @@
       "MetaDataIDKey": "",
       "Name": "galleryTemplate4_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2712,7 +2712,7 @@
       "MetaDataIDKey": "",
       "Name": "Menge",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3133,7 +3133,7 @@
       "MetaDataIDKey": "",
       "Name": "Menge Soll_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3381,7 +3381,7 @@
       "MetaDataIDKey": "",
       "Name": "Menge_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3606,7 +3606,7 @@
       "MetaDataIDKey": "",
       "Name": "Rectangle4_5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3786,7 +3786,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3961,7 +3961,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4248,7 +4248,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas2_18",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4376,7 +4376,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas2_19",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4499,7 +4499,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas2_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4724,7 +4724,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas2_3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
