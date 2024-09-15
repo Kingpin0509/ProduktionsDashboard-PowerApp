@@ -135,7 +135,6 @@
     "UserLocale": "de-DE"
   },
   "ScreenOrder": [
-    "Screen3",
-    "Screen1"
+    "Screen3"
   ]
 }
