@@ -1,11 +1,10 @@
 Screen3 As screen:
     Fill: =RGBA(121, 163, 59, 0.84)
 
-    "'Linie III_IV_1' As 'Linie III_IV'":
-        Height: =768
-        Width: =672
-        X: =694
-
     "'Linie I_II_1' As 'Linie I_II'":
         ZIndex: =2
+
+    "'Linie III_IV_1' As 'Linie III_IV'":
+        X: =694
+        ZIndex: =3
 
