@@ -116,7 +116,7 @@
     "FileID": "dd096559-94e2-412b-bfc4-979a5979f72a",
     "Id": "dd096559-94e2-412b-bfc4-979a5979f72a",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Produktionsdashboard Canvas",
     "OriginatingVersion": "1.343",
     "ParserErrorCount": 0,

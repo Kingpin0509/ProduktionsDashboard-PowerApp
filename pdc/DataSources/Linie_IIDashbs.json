@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr279_linie_iidashb",
+    "MaxGetRowsCount": 500,
     "Name": "Linie_IIDashbs",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Besitzer",
