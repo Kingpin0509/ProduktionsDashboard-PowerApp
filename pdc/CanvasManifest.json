@@ -10,14 +10,14 @@
     "MSAppStructureVersion": "2.0"
   },
   "Properties": {
-    "AppCopilotSchemaName": "cr279_2e3c7f92-e270-4f97-887f-1d193eca428e",
+    "AppCopilotSchemaName": "msdyn_appCopilot",
     "AppCreationSource": "AppFromScratch",
     "AppDescription": "Produktionsdashboard Canvas",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
-      "appinsightserrortracing": false,
-      "appinstrumentationcorrelationtracing": false,
+      "appinsightserrortracing": true,
+      "appinstrumentationcorrelationtracing": true,
       "autocreateenvironmentvariables": true,
       "behaviorpropertyui": true,
       "blockmovingcontrol": true,
@@ -76,7 +76,7 @@
       "optimizedforteamsmeeting": false,
       "packagemodernruntime": false,
       "parallelcodegen": false,
-      "pdffunction": false,
+      "pdffunction": true,
       "powerfxdecimal": false,
       "powerfxv1": false,
       "primaryoutputpropertycoerciondeprecated": true,
