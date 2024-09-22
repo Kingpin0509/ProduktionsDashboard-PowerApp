@@ -5715,7 +5715,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638620722937217661",
+    "LastModifiedTimestamp": "638626054679544667",
     "Name": "Linie I_II",
     "Rules": [
       {
@@ -5774,7 +5774,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638620722937217661",
+  "LastModifiedTimestamp": "638626054679544667",
   "Name": "12f8a0f6c2c9432a851f843b2aeacd65",
   "OverridableProperties": {},
   "Version": "1.0"
