@@ -1,1 +1,16 @@
-{}
+{
+  "9c7eceb8-3ff1-4d15-9456-eb8ba06ca17c": {
+    "connectionRef": {
+      "displayName": "Azure AD-App-Registrierungen",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3319/azureadapplications/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azureadapplications"
+    },
+    "datasets": {},
+    "dataSources": [
+      "AzureAD-App-Registrierungen"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "9c7eceb8-3ff1-4d15-9456-eb8ba06ca17c"
+  }
+}

@@ -1,0 +1,294 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://europe-002.azure-apim.net/apim/azureadapplications" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="AzureAD-App-Registrierungen" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="Azure AD-App-Registrierungen">Azure Active Directory ist eine Cloudlösung zur Identitäts- und Zugriffsverwaltung, die Ihre lokalen Verzeichnisse auf die Cloud ausweitet, einmaliges Anmelden bei Tausenden von Cloud-Apps (SaaS) ermöglicht und Zugriff auf lokal ausgeführte Web-Apps bietet.</doc>
+  <grammars>
+    <jsonTypes targetNamespace="https://europe-002.azure-apim.net/apim/azureadapplications" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="ApplicationOwners_Definition_value_def_items_def__ux40_odata_type_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_id_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_displayName_def" />
+      <untypedObject name="ApplicationOwners_Definition_value_def_items_def_businessPhones_def_items_def" />
+      <array typeRef="ApplicationOwners_Definition_value_def_items_def_businessPhones_def_items_def" name="ApplicationOwners_Definition_value_def_items_def_businessPhones_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_givenName_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_mail_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_mobilePhone_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_surname_def" />
+      <string name="ApplicationOwners_Definition_value_def_items_def_userPrincipalName_def" />
+      <object name="ApplicationOwners_Definition_value_def_items_def">
+        <property name="@odata.type" type="string" />
+        <property name="id" type="string" />
+        <property name="displayName" type="string" />
+        <property name="businessPhones" typeRef="ApplicationOwners_Definition_value_def_items_def_businessPhones_def" />
+        <property name="givenName" type="string" />
+        <property name="mail" type="string" />
+        <property name="mobilePhone" type="string" />
+        <property name="surname" type="string" />
+        <property name="userPrincipalName" type="string" />
+      </object>
+      <array typeRef="ApplicationOwners_Definition_value_def_items_def" name="ApplicationOwners_Definition_value_def" />
+      <object name="ApplicationOwners_Definition">
+        <property name="value" typeRef="ApplicationOwners_Definition_value_def" />
+      </object>
+      <string name="Application_Definition_id_def" />
+      <string name="Application_Definition_deletedDateTime_def" />
+      <string name="Application_Definition_appId_def" />
+      <string name="Application_Definition_applicationTemplateId_def" />
+      <string name="Application_Definition_disabledByMicrosoftStatus_def" />
+      <string name="Application_Definition_createdDateTime_def" />
+      <string name="Application_Definition_displayName_def" />
+      <string name="Application_Definition_description_def" />
+      <string name="Application_Definition_groupMembershipClaims_def" />
+      <string name="Application_Definition_identifierUris_def_items_def" />
+      <array type="string" name="Application_Definition_identifierUris_def" />
+      <untypedObject name="Application_Definition_isDeviceOnlyAuthSupported_def" />
+      <boolean name="Application_Definition_isFallbackPublicClient_def" />
+      <string name="Application_Definition_notes_def" />
+      <untypedObject name="Application_Definition_optionalClaims_def" />
+      <string name="Application_Definition_publisherDomain_def" />
+      <string name="Application_Definition_signInAudience_def" />
+      <untypedObject name="Application_Definition_tags_def_items_def" />
+      <array typeRef="Application_Definition_tags_def_items_def" name="Application_Definition_tags_def" />
+      <string name="Application_Definition_tokenEncryptionKeyId_def" />
+      <string name="Application_Definition_verifiedPublisher_def_displayName_def" />
+      <string name="Application_Definition_verifiedPublisher_def_verifiedPublisherId_def" />
+      <string name="Application_Definition_verifiedPublisher_def_addedDateTime_def" />
+      <object name="Application_Definition_verifiedPublisher_def">
+        <property name="displayName" type="string" />
+        <property name="verifiedPublisherId" type="string" />
+        <property name="addedDateTime" type="string" />
+      </object>
+      <string name="Application_Definition_defaultRedirectUri_def" />
+      <string name="Application_Definition_addIns_def_items_def_id_def" />
+      <string name="Application_Definition_addIns_def_items_def_type_def" />
+      <string name="Application_Definition_addIns_def_items_def_properties_def_items_def_key_def" />
+      <string name="Application_Definition_addIns_def_items_def_properties_def_items_def_value_def" />
+      <object name="Application_Definition_addIns_def_items_def_properties_def_items_def">
+        <property name="key" type="string" />
+        <property name="value" type="string" />
+      </object>
+      <array typeRef="Application_Definition_addIns_def_items_def_properties_def_items_def" name="Application_Definition_addIns_def_items_def_properties_def" />
+      <object name="Application_Definition_addIns_def_items_def">
+        <property name="id" type="string" />
+        <property name="type" type="string" />
+        <property name="properties" typeRef="Application_Definition_addIns_def_items_def_properties_def" />
+      </object>
+      <array typeRef="Application_Definition_addIns_def_items_def" name="Application_Definition_addIns_def" />
+      <boolean name="Application_Definition_api_def_acceptMappedClaims_def" />
+      <untypedObject name="Application_Definition_api_def_knownClientApplications_def_items_def" />
+      <array typeRef="Application_Definition_api_def_knownClientApplications_def_items_def" name="Application_Definition_api_def_knownClientApplications_def" />
+      <untypedObject name="Application_Definition_api_def_requestedAccessTokenVersion_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_adminConsentDescription_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_adminConsentDisplayName_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_id_def" />
+      <boolean name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_isEnabled_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_type_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_userConsentDescription_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_userConsentDisplayName_def" />
+      <string name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def_value_def" />
+      <object name="Application_Definition_api_def_oauth2PermissionScopes_def_items_def">
+        <property name="adminConsentDescription" type="string" />
+        <property name="adminConsentDisplayName" type="string" />
+        <property name="id" type="string" />
+        <property name="isEnabled" type="boolean" />
+        <property name="type" type="string" />
+        <property name="userConsentDescription" type="string" />
+        <property name="userConsentDisplayName" type="string" />
+        <property name="value" type="string" />
+      </object>
+      <array typeRef="Application_Definition_api_def_oauth2PermissionScopes_def_items_def" name="Application_Definition_api_def_oauth2PermissionScopes_def" />
+      <untypedObject name="Application_Definition_api_def_preAuthorizedApplications_def_items_def" />
+      <array typeRef="Application_Definition_api_def_preAuthorizedApplications_def_items_def" name="Application_Definition_api_def_preAuthorizedApplications_def" />
+      <object name="Application_Definition_api_def">
+        <property name="acceptMappedClaims" type="boolean" />
+        <property name="knownClientApplications" typeRef="Application_Definition_api_def_knownClientApplications_def" />
+        <property name="requestedAccessTokenVersion" typeRef="Application_Definition_api_def_requestedAccessTokenVersion_def" />
+        <property name="oauth2PermissionScopes" typeRef="Application_Definition_api_def_oauth2PermissionScopes_def" />
+        <property name="preAuthorizedApplications" typeRef="Application_Definition_api_def_preAuthorizedApplications_def" />
+      </object>
+      <untypedObject name="Application_Definition_appRoles_def_items_def" />
+      <array typeRef="Application_Definition_appRoles_def_items_def" name="Application_Definition_appRoles_def" />
+      <string name="Application_Definition_info_def_logoUrl_def" />
+      <string name="Application_Definition_info_def_marketingUrl_def" />
+      <string name="Application_Definition_info_def_privacyStatementUrl_def" />
+      <string name="Application_Definition_info_def_supportUrl_def" />
+      <string name="Application_Definition_info_def_termsOfServiceUrl_def" />
+      <object name="Application_Definition_info_def">
+        <property name="logoUrl" type="string" />
+        <property name="marketingUrl" type="string" />
+        <property name="privacyStatementUrl" type="string" />
+        <property name="supportUrl" type="string" />
+        <property name="termsOfServiceUrl" type="string" />
+      </object>
+      <untypedObject name="Application_Definition_keyCredentials_def_items_def" />
+      <array typeRef="Application_Definition_keyCredentials_def_items_def" name="Application_Definition_keyCredentials_def" />
+      <untypedObject name="Application_Definition_parentalControlSettings_def_countriesBlockedForMinors_def_items_def" />
+      <array typeRef="Application_Definition_parentalControlSettings_def_countriesBlockedForMinors_def_items_def" name="Application_Definition_parentalControlSettings_def_countriesBlockedForMinors_def" />
+      <string name="Application_Definition_parentalControlSettings_def_legalAgeGroupRule_def" />
+      <object name="Application_Definition_parentalControlSettings_def">
+        <property name="countriesBlockedForMinors" typeRef="Application_Definition_parentalControlSettings_def_countriesBlockedForMinors_def" />
+        <property name="legalAgeGroupRule" type="string" />
+      </object>
+      <string name="Application_Definition_passwordCredentials_def_items_def_displayName_def" />
+      <string name="Application_Definition_passwordCredentials_def_items_def_endDateTime_def" />
+      <string name="Application_Definition_passwordCredentials_def_items_def_hint_def" />
+      <string name="Application_Definition_passwordCredentials_def_items_def_keyId_def" />
+      <string name="Application_Definition_passwordCredentials_def_items_def_startDateTime_def" />
+      <object name="Application_Definition_passwordCredentials_def_items_def">
+        <property name="displayName" type="string" />
+        <property name="endDateTime" type="string" />
+        <property name="hint" type="string" />
+        <property name="keyId" type="string" />
+        <property name="startDateTime" type="string" />
+      </object>
+      <array typeRef="Application_Definition_passwordCredentials_def_items_def" name="Application_Definition_passwordCredentials_def" />
+      <untypedObject name="Application_Definition_publicClient_def_redirectUris_def_items_def" />
+      <array typeRef="Application_Definition_publicClient_def_redirectUris_def_items_def" name="Application_Definition_publicClient_def_redirectUris_def" />
+      <object name="Application_Definition_publicClient_def">
+        <property name="redirectUris" typeRef="Application_Definition_publicClient_def_redirectUris_def" />
+      </object>
+      <string name="Application_Definition_requiredResourceAccess_def_items_def_resourceAppId_def" />
+      <string name="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def_items_def_id_def" />
+      <string name="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def_items_def_type_def" />
+      <object name="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def_items_def">
+        <property name="id" type="string" />
+        <property name="type" type="string" />
+      </object>
+      <array typeRef="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def_items_def" name="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def" />
+      <object name="Application_Definition_requiredResourceAccess_def_items_def">
+        <property name="resourceAppId" type="string" />
+        <property name="resourceAccess" typeRef="Application_Definition_requiredResourceAccess_def_items_def_resourceAccess_def" />
+      </object>
+      <array typeRef="Application_Definition_requiredResourceAccess_def_items_def" name="Application_Definition_requiredResourceAccess_def" />
+      <string name="Application_Definition_web_def_homePageUrl_def" />
+      <string name="Application_Definition_web_def_logoutUrl_def" />
+      <string name="Application_Definition_web_def_redirectUris_def_items_def" />
+      <array type="string" name="Application_Definition_web_def_redirectUris_def" />
+      <boolean name="Application_Definition_web_def_implicitGrantSettings_def_enableAccessTokenIssuance_def" />
+      <boolean name="Application_Definition_web_def_implicitGrantSettings_def_enableIdTokenIssuance_def" />
+      <object name="Application_Definition_web_def_implicitGrantSettings_def">
+        <property name="enableAccessTokenIssuance" type="boolean" />
+        <property name="enableIdTokenIssuance" type="boolean" />
+      </object>
+      <object name="Application_Definition_web_def">
+        <property name="homePageUrl" type="string" />
+        <property name="logoutUrl" type="string" />
+        <property name="redirectUris" typeRef="Application_Definition_web_def_redirectUris_def" />
+        <property name="implicitGrantSettings" typeRef="Application_Definition_web_def_implicitGrantSettings_def" />
+      </object>
+      <untypedObject name="Application_Definition_spa_def_redirectUris_def_items_def" />
+      <array typeRef="Application_Definition_spa_def_redirectUris_def_items_def" name="Application_Definition_spa_def_redirectUris_def" />
+      <object name="Application_Definition_spa_def">
+        <property name="redirectUris" typeRef="Application_Definition_spa_def_redirectUris_def" />
+      </object>
+      <object name="Application_Definition">
+        <property name="id" type="string" />
+        <property name="deletedDateTime" type="string" />
+        <property name="appId" type="string" />
+        <property name="applicationTemplateId" type="string" />
+        <property name="disabledByMicrosoftStatus" type="string" />
+        <property name="createdDateTime" type="string" />
+        <property name="displayName" type="string" />
+        <property name="description" type="string" />
+        <property name="groupMembershipClaims" type="string" />
+        <property name="identifierUris" typeRef="Application_Definition_identifierUris_def" />
+        <property name="isDeviceOnlyAuthSupported" typeRef="Application_Definition_isDeviceOnlyAuthSupported_def" />
+        <property name="isFallbackPublicClient" type="boolean" />
+        <property name="notes" type="string" />
+        <property name="optionalClaims" typeRef="Application_Definition_optionalClaims_def" />
+        <property name="publisherDomain" type="string" />
+        <property name="signInAudience" type="string" />
+        <property name="tags" typeRef="Application_Definition_tags_def" />
+        <property name="tokenEncryptionKeyId" type="string" />
+        <property name="verifiedPublisher" typeRef="Application_Definition_verifiedPublisher_def" />
+        <property name="defaultRedirectUri" type="string" />
+        <property name="addIns" typeRef="Application_Definition_addIns_def" />
+        <property name="api" typeRef="Application_Definition_api_def" />
+        <property name="appRoles" typeRef="Application_Definition_appRoles_def" />
+        <property name="info" typeRef="Application_Definition_info_def" />
+        <property name="keyCredentials" typeRef="Application_Definition_keyCredentials_def" />
+        <property name="parentalControlSettings" typeRef="Application_Definition_parentalControlSettings_def" />
+        <property name="passwordCredentials" typeRef="Application_Definition_passwordCredentials_def" />
+        <property name="publicClient" typeRef="Application_Definition_publicClient_def" />
+        <property name="requiredResourceAccess" typeRef="Application_Definition_requiredResourceAccess_def" />
+        <property name="web" typeRef="Application_Definition_web_def" />
+        <property name="spa" typeRef="Application_Definition_spa_def" />
+      </object>
+      <string name="ApplicationList_Definition__ux40_odata_context_def" />
+      <string name="ApplicationList_Definition__ux40_odata_nextLink_def" />
+      <array typeRef="Application_Definition" name="ApplicationList_Definition_value_def" />
+      <object name="ApplicationList_Definition">
+        <property name="@odata.context" type="string" />
+        <property name="@odata.nextLink" type="string" />
+        <property name="value" typeRef="ApplicationList_Definition_value_def" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://europe-002.azure-apim.net/apim/azureadapplications">
+    <resource path="/{connectionId}/v1.0/applications">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="GET" id="ListApplications" actionName="ListApplications" visibility="important" siena:isDeprecated="false">
+        <doc title="Anwendungen und Besitzer auflisten&#xA;Liste der in AAD in dieser Organisation registrierten Anwendungen abrufen" />
+        <request>
+          <param style="query" name="$select" type="xs:string">
+            <doc title="Choose columns to display (blank for all)" />
+          </param>
+          <param style="query" name="$search" type="xs:string">
+            <doc title="Advanced Search criteria. Clear Owner column and specify in quotes. (eg &quot;displayName:Web&quot;)" />
+          </param>
+          <param style="query" name="$filter" type="xs:string">
+            <doc title="Filters results (rows)" />
+          </param>
+          <param style="query" name="$count" type="xs:string" default="true">
+            <doc title="true or false - Retrieves the total count of matching resources" />
+            <option value="true" />
+            <option value="false" />
+          </param>
+          <param style="query" name="$skiptoken" type="xs:string">
+            <doc title="Next set of reords" />
+          </param>
+          <param style="query" name="$expand" type="xs:string" default="Owners">
+            <doc title="Retrieves related resources (including app owners by default. Remove if you use $search)" />
+          </param>
+          <param style="query" name="$top" type="xs:long">
+            <doc title="Limits the number of results." />
+          </param>
+        </request>
+        <response>
+          <representation mediaType="application/json" element="service:ApplicationList_Definition" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/v1.0/applications/{id}">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <param style="template" name="id" type="xs:string" required="true">
+        <doc title="Unique identifier for the application object" />
+      </param>
+      <method siena:requiresAuthentication="true" name="GET" id="GetApplication" actionName="GetApplication" visibility="important" siena:isDeprecated="false">
+        <doc title="Get Application&#xA;Get the properties and relationships of an application object." />
+        <request />
+        <response>
+          <representation mediaType="application/json" element="service:Application_Definition" />
+        </response>
+      </method>
+    </resource>
+    <resource path="/{connectionId}/v1.0/applications/{id}/owners">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <param style="template" name="id" type="xs:string" required="true">
+        <doc title="Unique identifier for the application object" />
+      </param>
+      <method siena:requiresAuthentication="true" name="GET" id="GetAppOwners" actionName="GetAppOwners" visibility="important" siena:isDeprecated="false">
+        <doc title="Get Application Owners&#xA;Get Application Owners" />
+        <request />
+        <response>
+          <representation mediaType="application/json" element="service:ApplicationOwners_Definition" />
+        </response>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="shared_azureadapplications" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
